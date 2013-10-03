@@ -2,7 +2,7 @@ language: perl
 perl:
   - "5.12"
 install:
-  - "cpanm --installdeps --notest . || cat ~/.cpanm/build.log"
+  - "" 
 after_failure:
   - "cat ~/.cpanm/build.log"
 script: "make test"
