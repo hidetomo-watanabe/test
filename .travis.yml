@@ -4,8 +4,8 @@ perl:
 install:
   - "" 
 after_failure:
-  - "cat ~/.cpanm/build.log"
-script: "make test"
+  - ""
+script: "./t/hoge.t"
 notifications:
   email:
     - hidetomo.watanabe@dena.com
