@@ -1,4 +1,6 @@
 language: perl
+perl:
+  -"5.12.4"
 install: "make test-deps"
 script: "make test"
 notifications:
