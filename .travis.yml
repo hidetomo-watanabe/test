@@ -1,7 +1,6 @@
 language: perl
 perl:
-  - 5.12
-install: "make test-deps"
+  - "5.12"
 script: "make test"
 notifications:
   email:
