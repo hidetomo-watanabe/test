@@ -2,5 +2,6 @@
 
 use strict;
 use warnings;
+use Test::More tests => 1;
 
-print 1;
+is_deeply(1, 1, 'test');
