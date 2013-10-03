@@ -1,3 +1,3 @@
 #!/usr/bin/perl
 
-print 0;
+print 1;
